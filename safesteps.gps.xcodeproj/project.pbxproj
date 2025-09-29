@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		61ED82212E8A27A90078797A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61ED82042E8A27A70078797A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61ED820B2E8A27A70078797A;
+			remoteInfo = safesteps.gps;
+		};
+		61ED822B2E8A27A90078797A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61ED82042E8A27A70078797A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61ED820B2E8A27A70078797A;
+			remoteInfo = safesteps.gps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61ED820C2E8A27A70078797A /* safesteps.gps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = safesteps.gps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61ED82202E8A27A90078797A /* safesteps.gpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = safesteps.gpsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61ED822A2E8A27A90078797A /* safesteps.gpsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = safesteps.gpsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		61ED82322E8A27A90078797A /* Exceptions for "safesteps.gps" folder in "safesteps.gps" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 61ED820B2E8A27A70078797A /* safesteps.gps */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		61ED820E2E8A27A70078797A /* safesteps.gps */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				61ED82322E8A27A90078797A /* Exceptions for "safesteps.gps" folder in "safesteps.gps" target */,
+			);
+			path = safesteps.gps;
+			sourceTree = "<group>";
+		};
+		61ED82232E8A27A90078797A /* safesteps.gpsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = safesteps.gpsTests;
+			sourceTree = "<group>";
+		};
+		61ED822D2E8A27A90078797A /* safesteps.gpsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = safesteps.gpsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61ED82092E8A27A70078797A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED821D2E8A27A90078797A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED82272E8A27A90078797A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61ED82032E8A27A70078797A = {
+			isa = PBXGroup;
+			children = (
+				61ED820E2E8A27A70078797A /* safesteps.gps */,
+				61ED82232E8A27A90078797A /* safesteps.gpsTests */,
+				61ED822D2E8A27A90078797A /* safesteps.gpsUITests */,
+				61ED820D2E8A27A70078797A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61ED820D2E8A27A70078797A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61ED820C2E8A27A70078797A /* safesteps.gps.app */,
+				61ED82202E8A27A90078797A /* safesteps.gpsTests.xctest */,
+				61ED822A2E8A27A90078797A /* safesteps.gpsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61ED820B2E8A27A70078797A /* safesteps.gps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61ED82332E8A27A90078797A /* Build configuration list for PBXNativeTarget "safesteps.gps" */;
+			buildPhases = (
+				61ED82082E8A27A70078797A /* Sources */,
+				61ED82092E8A27A70078797A /* Frameworks */,
+				61ED820A2E8A27A70078797A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				61ED820E2E8A27A70078797A /* safesteps.gps */,
+			);
+			name = safesteps.gps;
+			packageProductDependencies = (
+			);
+			productName = safesteps.gps;
+			productReference = 61ED820C2E8A27A70078797A /* safesteps.gps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61ED821F2E8A27A90078797A /* safesteps.gpsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61ED82382E8A27A90078797A /* Build configuration list for PBXNativeTarget "safesteps.gpsTests" */;
+			buildPhases = (
+				61ED821C2E8A27A90078797A /* Sources */,
+				61ED821D2E8A27A90078797A /* Frameworks */,
+				61ED821E2E8A27A90078797A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61ED82222E8A27A90078797A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				61ED82232E8A27A90078797A /* safesteps.gpsTests */,
+			);
+			name = safesteps.gpsTests;
+			packageProductDependencies = (
+			);
+			productName = safesteps.gpsTests;
+			productReference = 61ED82202E8A27A90078797A /* safesteps.gpsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61ED82292E8A27A90078797A /* safesteps.gpsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61ED823B2E8A27A90078797A /* Build configuration list for PBXNativeTarget "safesteps.gpsUITests" */;
+			buildPhases = (
+				61ED82262E8A27A90078797A /* Sources */,
+				61ED82272E8A27A90078797A /* Frameworks */,
+				61ED82282E8A27A90078797A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61ED822C2E8A27A90078797A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				61ED822D2E8A27A90078797A /* safesteps.gpsUITests */,
+			);
+			name = safesteps.gpsUITests;
+			packageProductDependencies = (
+			);
+			productName = safesteps.gpsUITests;
+			productReference = 61ED822A2E8A27A90078797A /* safesteps.gpsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61ED82042E8A27A70078797A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					61ED820B2E8A27A70078797A = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					61ED821F2E8A27A90078797A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 61ED820B2E8A27A70078797A;
+					};
+					61ED82292E8A27A90078797A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 61ED820B2E8A27A70078797A;
+					};
+				};
+			};
+			buildConfigurationList = 61ED82072E8A27A70078797A /* Build configuration list for PBXProject "safesteps.gps" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61ED82032E8A27A70078797A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 61ED820D2E8A27A70078797A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61ED820B2E8A27A70078797A /* safesteps.gps */,
+				61ED821F2E8A27A90078797A /* safesteps.gpsTests */,
+				61ED82292E8A27A90078797A /* safesteps.gpsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61ED820A2E8A27A70078797A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED821E2E8A27A90078797A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED82282E8A27A90078797A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61ED82082E8A27A70078797A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED821C2E8A27A90078797A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ED82262E8A27A90078797A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61ED82222E8A27A90078797A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61ED820B2E8A27A70078797A /* safesteps.gps */;
+			targetProxy = 61ED82212E8A27A90078797A /* PBXContainerItemProxy */;
+		};
+		61ED822C2E8A27A90078797A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61ED820B2E8A27A70078797A /* safesteps.gps */;
+			targetProxy = 61ED822B2E8A27A90078797A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61ED82342E8A27A90078797A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = safesteps.gps/safesteps_gps.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"safesteps.gps/Preview Content\"";
+				DEVELOPMENT_TEAM = SZGWRN6R94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = safesteps.gps/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "umich.dpm.safesteps-gps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61ED82352E8A27A90078797A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = safesteps.gps/safesteps_gps.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"safesteps.gps/Preview Content\"";
+				DEVELOPMENT_TEAM = SZGWRN6R94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = safesteps.gps/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "umich.dpm.safesteps-gps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61ED82362E8A27A90078797A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61ED82372E8A27A90078797A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61ED82392E8A27A90078797A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZGWRN6R94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "umich.dpm.safesteps-gpsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/safesteps.gps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/safesteps.gps";
+			};
+			name = Debug;
+		};
+		61ED823A2E8A27A90078797A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZGWRN6R94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "umich.dpm.safesteps-gpsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/safesteps.gps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/safesteps.gps";
+			};
+			name = Release;
+		};
+		61ED823C2E8A27A90078797A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZGWRN6R94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "umich.dpm.safesteps-gpsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = safesteps.gps;
+			};
+			name = Debug;
+		};
+		61ED823D2E8A27A90078797A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZGWRN6R94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "umich.dpm.safesteps-gpsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = safesteps.gps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61ED82072E8A27A70078797A /* Build configuration list for PBXProject "safesteps.gps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ED82362E8A27A90078797A /* Debug */,
+				61ED82372E8A27A90078797A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61ED82332E8A27A90078797A /* Build configuration list for PBXNativeTarget "safesteps.gps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ED82342E8A27A90078797A /* Debug */,
+				61ED82352E8A27A90078797A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61ED82382E8A27A90078797A /* Build configuration list for PBXNativeTarget "safesteps.gpsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ED82392E8A27A90078797A /* Debug */,
+				61ED823A2E8A27A90078797A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61ED823B2E8A27A90078797A /* Build configuration list for PBXNativeTarget "safesteps.gpsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61ED823C2E8A27A90078797A /* Debug */,
+				61ED823D2E8A27A90078797A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61ED82042E8A27A70078797A /* Project object */;
+}
