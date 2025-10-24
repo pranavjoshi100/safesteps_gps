@@ -6,6 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		61ED82402E8A2B9C0078797A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 61ED823F2E8A2B9C0078797A /* FirebaseAnalytics */; };
+		61ED82422E8A2B9C0078797A /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 61ED82412E8A2B9C0078797A /* FirebaseAppDistribution-Beta */; };
+		61ED82442E8A2B9C0078797A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 61ED82432E8A2B9C0078797A /* FirebaseAuth */; };
+		61ED82462E8A2B9C0078797A /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 61ED82452E8A2B9C0078797A /* FirebaseCore */; };
+		61ED82482E8A2B9C0078797A /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 61ED82472E8A2B9C0078797A /* FirebaseCrashlytics */; };
+		61ED824A2E8A2B9C0078797A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 61ED82492E8A2B9C0078797A /* FirebaseFirestore */; };
+		61ED824C2E8A2B9C0078797A /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 61ED824B2E8A2B9C0078797A /* FirebaseInAppMessaging-Beta */; };
+		61ED824E2E8A2B9C0078797A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 61ED824D2E8A2B9C0078797A /* FirebaseMessaging */; };
+		61ED82512E8A2CC70078797A /* GRPCCore in Frameworks */ = {isa = PBXBuildFile; productRef = 61ED82502E8A2CC70078797A /* GRPCCore */; };
+		61ED82542E8A2D090078797A /* Promises in Frameworks */ = {isa = PBXBuildFile; productRef = 61ED82532E8A2D090078797A /* Promises */; };
+		61ED82EC2E8DA5F60078797A /* SkeletonUI in Frameworks */ = {isa = PBXBuildFile; productRef = 61ED82EB2E8DA5F60078797A /* SkeletonUI */; };
+		61ED82EF2E8DA6ED0078797A /* Polyline in Frameworks */ = {isa = PBXBuildFile; productRef = 61ED82EE2E8DA6ED0078797A /* Polyline */; };
+		61ED83752E9442370078797A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 61ED83742E9442370078797A /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		61ED82212E8A27A90078797A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -45,6 +61,9 @@
 			exceptions = (
 				61ED82322E8A27A90078797A /* Exceptions for "safesteps.gps" folder in "safesteps.gps" target */,
 			);
+			explicitFolders = (
+				AppIcons,
+			);
 			path = safesteps.gps;
 			sourceTree = "<group>";
 		};
@@ -65,6 +84,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61ED824E2E8A2B9C0078797A /* FirebaseMessaging in Frameworks */,
+				61ED82402E8A2B9C0078797A /* FirebaseAnalytics in Frameworks */,
+				61ED824C2E8A2B9C0078797A /* FirebaseInAppMessaging-Beta in Frameworks */,
+				61ED82442E8A2B9C0078797A /* FirebaseAuth in Frameworks */,
+				61ED82512E8A2CC70078797A /* GRPCCore in Frameworks */,
+				61ED82482E8A2B9C0078797A /* FirebaseCrashlytics in Frameworks */,
+				61ED82462E8A2B9C0078797A /* FirebaseCore in Frameworks */,
+				61ED82EC2E8DA5F60078797A /* SkeletonUI in Frameworks */,
+				61ED83752E9442370078797A /* FirebaseStorage in Frameworks */,
+				61ED82EF2E8DA6ED0078797A /* Polyline in Frameworks */,
+				61ED82422E8A2B9C0078797A /* FirebaseAppDistribution-Beta in Frameworks */,
+				61ED82542E8A2D090078797A /* Promises in Frameworks */,
+				61ED824A2E8A2B9C0078797A /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +123,7 @@
 				61ED820E2E8A27A70078797A /* safesteps.gps */,
 				61ED82232E8A27A90078797A /* safesteps.gpsTests */,
 				61ED822D2E8A27A90078797A /* safesteps.gpsUITests */,
+				61ED83732E9442370078797A /* Frameworks */,
 				61ED820D2E8A27A70078797A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +136,13 @@
 				61ED822A2E8A27A90078797A /* safesteps.gpsUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		61ED83732E9442370078797A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +165,19 @@
 			);
 			name = safesteps.gps;
 			packageProductDependencies = (
+				61ED823F2E8A2B9C0078797A /* FirebaseAnalytics */,
+				61ED82412E8A2B9C0078797A /* FirebaseAppDistribution-Beta */,
+				61ED82432E8A2B9C0078797A /* FirebaseAuth */,
+				61ED82452E8A2B9C0078797A /* FirebaseCore */,
+				61ED82472E8A2B9C0078797A /* FirebaseCrashlytics */,
+				61ED82492E8A2B9C0078797A /* FirebaseFirestore */,
+				61ED824B2E8A2B9C0078797A /* FirebaseInAppMessaging-Beta */,
+				61ED824D2E8A2B9C0078797A /* FirebaseMessaging */,
+				61ED82502E8A2CC70078797A /* GRPCCore */,
+				61ED82532E8A2D090078797A /* Promises */,
+				61ED82EB2E8DA5F60078797A /* SkeletonUI */,
+				61ED82EE2E8DA6ED0078797A /* Polyline */,
+				61ED83742E9442370078797A /* FirebaseStorage */,
 			);
 			productName = safesteps.gps;
 			productReference = 61ED820C2E8A27A70078797A /* safesteps.gps.app */;
@@ -208,6 +261,14 @@
 			);
 			mainGroup = 61ED82032E8A27A70078797A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				61ED823E2E8A2B9C0078797A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				61ED824F2E8A2CC70078797A /* XCRemoteSwiftPackageReference "grpc-swift" */,
+				61ED82522E8A2D090078797A /* XCRemoteSwiftPackageReference "promises" */,
+				61ED82552E8A2D7C0078797A /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+				61ED82EA2E8DA5F60078797A /* XCRemoteSwiftPackageReference "SkeletonUI" */,
+				61ED82ED2E8DA6ED0078797A /* XCRemoteSwiftPackageReference "Polyline" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 61ED820D2E8A27A70078797A /* Products */;
 			projectDirPath = "";
@@ -287,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = safesteps.gps/safesteps_gps.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -295,11 +357,15 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = safesteps.gps/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to track your walking routes and detect movement";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to track your walking routes in the background";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to track your walking routes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +373,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "umich.dpm.safesteps-gps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = safesteps.gps/safesteps_gps.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -326,11 +395,15 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = safesteps.gps/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to track your walking routes and detect movement";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to track your walking routes in the background";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to track your walking routes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,9 +411,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "umich.dpm.safesteps-gps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -575,6 +650,125 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		61ED823E2E8A2B9C0078797A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.3.0;
+			};
+		};
+		61ED824F2E8A2CC70078797A /* XCRemoteSwiftPackageReference "grpc-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/grpc/grpc-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.3;
+			};
+		};
+		61ED82522E8A2D090078797A /* XCRemoteSwiftPackageReference "promises" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/promises";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+		61ED82552E8A2D7C0078797A /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.31.1;
+			};
+		};
+		61ED82EA2E8DA5F60078797A /* XCRemoteSwiftPackageReference "SkeletonUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CSolanaM/SkeletonUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+		61ED82ED2E8DA6ED0078797A /* XCRemoteSwiftPackageReference "Polyline" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raphaelmor/Polyline.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		61ED823F2E8A2B9C0078797A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61ED823E2E8A2B9C0078797A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		61ED82412E8A2B9C0078797A /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61ED823E2E8A2B9C0078797A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		61ED82432E8A2B9C0078797A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61ED823E2E8A2B9C0078797A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		61ED82452E8A2B9C0078797A /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61ED823E2E8A2B9C0078797A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		61ED82472E8A2B9C0078797A /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61ED823E2E8A2B9C0078797A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		61ED82492E8A2B9C0078797A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61ED823E2E8A2B9C0078797A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		61ED824B2E8A2B9C0078797A /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61ED823E2E8A2B9C0078797A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		61ED824D2E8A2B9C0078797A /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61ED823E2E8A2B9C0078797A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		61ED82502E8A2CC70078797A /* GRPCCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61ED824F2E8A2CC70078797A /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPCCore;
+		};
+		61ED82532E8A2D090078797A /* Promises */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61ED82522E8A2D090078797A /* XCRemoteSwiftPackageReference "promises" */;
+			productName = Promises;
+		};
+		61ED82EB2E8DA5F60078797A /* SkeletonUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61ED82EA2E8DA5F60078797A /* XCRemoteSwiftPackageReference "SkeletonUI" */;
+			productName = SkeletonUI;
+		};
+		61ED82EE2E8DA6ED0078797A /* Polyline */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61ED82ED2E8DA6ED0078797A /* XCRemoteSwiftPackageReference "Polyline" */;
+			productName = Polyline;
+		};
+		61ED83742E9442370078797A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61ED823E2E8A2B9C0078797A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 61ED82042E8A27A70078797A /* Project object */;
 }
